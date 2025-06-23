@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests pytz
+          pip install requests beautifulsoup4
 
       - name: Run IPO script
         env:
