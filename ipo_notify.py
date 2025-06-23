@@ -48,7 +48,7 @@ def send_telegram_message(bot_token, chat_id, message):
 url = "https://merolagani.com/"
 upcoming_url = url + "Ipo.aspx?type=upcoming"
 page = requests.get(upcoming_url)
-# soup = BeautifulSoup(page.content, "html.parser")
+soup = BeautifulSoup(page.content, "html.parser")
 # block = soup.find(id="ctl00_ContentPlaceHolder1_divData")
 # ipos = block.find_all("div", class_="media-body")
 
