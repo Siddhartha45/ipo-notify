@@ -1,3 +1,4 @@
+print("---script started---")
 import os
 import requests, smtplib, time
 from datetime import datetime, date
