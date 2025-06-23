@@ -3,11 +3,11 @@ import requests, smtplib, time
 from datetime import datetime, date
 from bs4 import BeautifulSoup
 from email.message import EmailMessage
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from zoneinfo import ZoneInfo
 
 
-load_dotenv()
+# load_dotenv()
 #email setup
 email = os.getenv("EMAIL")
 app_password = os.getenv("APP_PASSWORD")
