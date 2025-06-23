@@ -2,7 +2,7 @@ name: Daily IPO Notifier
 
 on:
   schedule:
-    - cron: '45 6 * * *'  # runs daily at 12:30 PM Nepal time (UTC+5:45)
+    - cron: '6 18 * * *'  # runs daily at 12:30 PM Nepal time (UTC+5:45)
   workflow_dispatch:
 
 jobs:
