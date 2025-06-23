@@ -21,6 +21,9 @@ jobs:
         run: |
           pip install requests beautifulsoup4
 
+      - name: Say hello
+        run: echo "Workflow started!"
+
       - name: Run IPO script
         env:
           EMAIL: ${{ secrets.EMAIL }}
