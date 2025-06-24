@@ -95,6 +95,6 @@ for item in unique:
         print("--started--")
         send_telegram_message(message)
         send_mail(message)
-        print("---ended----")k
+        print("---ended----")
     else:
         print("No ipo openings")
